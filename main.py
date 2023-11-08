@@ -73,8 +73,7 @@ with st.form(key='myform', clear_on_submit=True):
     prompt = st.text_input("Prompt", placeholder="Enter your prompt here..")
     submit_button = st.form_submit_button("Submit")
     
-    message("message 1", is_user=True)
-    message("message 2")
+
 
 
 if submit_button:
