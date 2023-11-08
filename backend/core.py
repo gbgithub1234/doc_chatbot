@@ -2,7 +2,7 @@ import os
 import streamlit as st
 from typing import Any, List, Dict
 
-from langchain.embeddings import OpenAIEmbeddings
+from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.chat_models import ChatOpenAI
 from langchain.chains import ConversationalRetrievalChain
 from langchain.vectorstores import Pinecone
